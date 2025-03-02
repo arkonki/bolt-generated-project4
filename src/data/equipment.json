@@ -1,0 +1,298 @@
+{
+  "armor": [
+    {
+      "name": "Leather",
+      "armor_rating": 1,
+      "cost": "2 gold",
+      "supply": "Common",
+      "effect": "None",
+      "weight": 1
+    },
+    {
+      "name": "Studded Leather",
+      "armor_rating": 2,
+      "cost": "10 gold",
+      "supply": "Uncommon",
+      "effect": "Bane on SNEAKING rolls.",
+      "weight": 2
+    },
+    {
+      "name": "Chainmail",
+      "armor_rating": 4,
+      "cost": "50 gold",
+      "supply": "Uncommon",
+      "effect": "Bane on EVADE and SNEAKING rolls.",
+      "weight": 3
+    },
+    {
+      "name": "Plate Armor",
+      "armor_rating": 6,
+      "cost": "500 gold",
+      "supply": "Rare",
+      "effect": "Bane on ACROBATICS, EVADE, and SNEAKING rolls.",
+      "weight": 4
+    }
+  ],
+  "helmets": [
+    {
+      "name": "Open Helmet",
+      "armor_rating": 1,
+      "cost": "12 gold",
+      "supply": "Uncommon",
+      "effect": "Bane on AWARENESS rolls.",
+      "weight": 1
+    },
+    {
+      "name": "Great Helm",
+      "armor_rating": 2,
+      "cost": "100 gold",
+      "supply": "Rare",
+      "effect": "Bane on AWARENESS and all ranged attacks.",
+      "weight": 2
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Unarmed",
+      "grip": "N/A",
+      "strength_requirement": "N/A",
+      "range": 2,
+      "damage": "D6",
+      "durability": "N/A",
+      "cost": "N/A",
+      "supply": "N/A",
+      "features": ["Bludgeoning"],
+      "weight": 0
+    },
+    {
+      "name": "Knife",
+      "grip": "1H",
+      "strength_requirement": "N/A",
+      "range": "STR",
+      "damage": "D8",
+      "durability": 6,
+      "cost": "5 silver",
+      "supply": "Common",
+      "features": ["Subtle", "piercing", "can be thrown"],
+      "weight": 1
+    }
+  ],
+  "ranged_weapons": [
+    {
+      "name": "Sling",
+      "grip": "1H",
+      "strength_requirement": "N/A",
+      "range": 20,
+      "damage": "D8",
+      "durability": "N/A",
+      "cost": "1 silver",
+      "supply": "Common",
+      "features": ["Bludgeoning", "tiny item"],
+      "weight": 1
+    },
+    {
+      "name": "Short Bow",
+      "grip": "2H",
+      "strength_requirement": 7,
+      "range": 30,
+      "damage": "D10",
+      "durability": 3,
+      "cost": "25 gold",
+      "supply": "Common",
+      "features": ["Piercing", "requires quiver"],
+      "weight": 1
+    }
+  ],
+  "clothes": [
+    {
+      "name": "Boots",
+      "cost": "2 gold",
+      "supply": "Uncommon",
+      "effect": "Protects against some journey mishaps.",
+      "weight": 1
+    },
+    {
+      "name": "Cloak",
+      "cost": "8 silver",
+      "supply": "Uncommon",
+      "effect": "Protects against some journey mishaps.",
+      "weight": 1
+    }
+  ],
+  "musical_instruments": [
+    {
+      "name": "Bagpipe",
+      "cost": "30 gold",
+      "supply": "Uncommon",
+      "weight": 1,
+      "effect": "Reduces the WP cost of the Musician ability to 1 and increases range to 50 meters."
+    },
+    {
+      "name": "Drum",
+      "cost": "4 gold",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Increases the range of the Musician ability to 20 meters."
+    }
+  ],
+  "trade_goods": [
+    {
+      "name": "Abacus",
+      "cost": "2 gold",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Boon on INT rolls for solving mathematical problems."
+    },
+    {
+      "name": "Blanket",
+      "cost": "5 silver",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Required to avoid a bane on rolls to avoid the effects of cold."
+    }
+  ],
+  "studies_and_magic": [
+    {
+      "name": "Amulet",
+      "cost": "3 gold",
+      "supply": "Uncommon",
+      "weight": 1,
+      "effect": "Can be used as a focus for spells."
+    },
+    {
+      "name": "Book",
+      "cost": "25 gold",
+      "supply": "Uncommon",
+      "weight": 1,
+      "effect": "Boon on skill rolls in a specific subject. Cost varies depending on the subject."
+    }
+  ],
+  "light_sources": [
+    {
+      "name": "Flint & Tinder",
+      "cost": "5 silver",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Required to light torches, candles, or lanterns, and to make a fire."
+    },
+    {
+      "name": "Lamp Oil",
+      "cost": "3 silver",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Holds ten doses. Each dose keeps an oil lamp or lantern burning for up to one shift of time."
+    }
+  ],
+  "tools": [
+    {
+      "name": "Crowbar",
+      "cost": "2 gold",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Deals 2D6 damage against a door or wall without risk of being damaged. Hits automatically."
+    },
+    {
+      "name": "Hammer",
+      "cost": "1 gold",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Deals 2D4 damage against a door or wall without risk of being damaged. Hits automatically."
+    }
+  ],
+  "containers": [
+    {
+      "name": "Backpack",
+      "cost": "3 gold",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Increases carrying capacity by 2. A person can only use one backpack at a time."
+    },
+    {
+      "name": "Barrel",
+      "cost": "2 gold",
+      "supply": "Common",
+      "weight": 2,
+      "effect": "Holds up to 15 weight units. Can take 10 points of damage, armor rating 3."
+    }
+  ],
+  "medicine": [
+    {
+      "name": "Bandages (10)",
+      "cost": "5 silver",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Required to avoid a bane on HEALING rolls for saving lives. Each attempt consumes one bandage."
+    },
+    {
+      "name": "Surgical Instruments",
+      "cost": "15 gold",
+      "supply": "Uncommon",
+      "weight": 1,
+      "effect": "Boon on HEALING rolls for saving a life."
+    }
+  ],
+  "services": [
+    {
+      "name": "Bath at an Inn",
+      "cost": "6 copper",
+      "supply": "Common",
+      "weight": 0,
+      "effect": "Heals a condition of your choice in one stretch. Only one bath per day has this effect."
+    },
+    {
+      "name": "Bodyguard",
+      "cost": "2 gold per day",
+      "supply": "Common",
+      "weight": 0,
+      "effect": "Provides protection. Stats as a typical guard on page 105."
+    }
+  ],
+  "hunting_and_fishing": [
+    {
+      "name": "Bear Trap",
+      "cost": "8 silver",
+      "supply": "Uncommon",
+      "weight": 1,
+      "effect": "When triggered, deals D8 damage and immobilizes the target until they succeed on an EVADE roll. Can be used once per setup."
+    },
+    {
+      "name": "Fishing Net",
+      "cost": "6 silver",
+      "supply": "Common",
+      "weight": 1,
+      "effect": "Boon on HUNTING & FISHING rolls to catch fish. Can hold up to 20 fish before becoming ineffective."
+    }
+  ],
+  "means_of_travel": [
+    {
+      "name": "Donkey",
+      "cost": "10 gold",
+      "supply": "Common",
+      "weight": 0,
+      "effect": "Can carry up to 100 kg. Slower than a horse but steady and resilient over rough terrain."
+    },
+    {
+      "name": "Horse, Riding",
+      "cost": "50 gold",
+      "supply": "Common",
+      "weight": 0,
+      "effect": "Can carry up to 80 kg. Used primarily for personal transportation."
+    }
+  ],
+  "animals": [
+    {
+      "name": "Cat",
+      "cost": "5 silver",
+      "supply": "Common",
+      "weight": 0,
+      "effect": "Known for agility and stealth, provides a boon on AWARENESS rolls to detect vermin or small creatures."
+    },
+    {
+      "name": "Dog",
+      "cost": "1 gold",
+      "supply": "Common",
+      "weight": 0,
+      "effect": "Loyal companion that provides a boon on tracking and guarding duties. Often trained to assist in hunts."
+    }
+  ]
+}
